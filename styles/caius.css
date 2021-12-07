@@ -1,0 +1,63 @@
+:root {
+  --caius-color-primary: #000a12;
+  --caius-color-primary-lighten: #b1d6ed;
+  --caius-color-primary-darken: #000a12;
+  --caius-color-primary-contrast: #fff;
+  --caius-color-foreground: #333;
+  --caius-color-background: #fff;
+  --caius-color-grey: #bebebe;
+  --caius-color-grey-lighten: #ececec;
+  --caius-color-dimmed: #696969;
+  --caius-color-muted: var(--caius-color-grey);
+  --caius-color-success: #3c763d;
+  --caius-color-error: #e94040;
+  --caius-color-hsi: #000a12;
+  --caius-color-itv: #000a12;
+  --caius-color-mobile: #000a12;
+  --caius-color-voip: #000a12;
+  --caius-color-multi: #ff8c00;
+  --caius-color-services: #9400d3;
+  --caius-color-services: #9400d3;
+  --caius-color-oiken-primary: #3c3834;
+  --caius-color-oiken-primary-darken: #000;
+  --caius-color-oiken-primary-contrast: #72ff00;
+  --caius-text-xxs: 0.5rem;
+  --caius-text-xs: 0.75rem;
+  --caius-text-sm: 0.875rem;
+  --caius-text-md: 1rem;
+  --caius-text-lg: 1.125rem;
+  --caius-text-xl: 1.25rem;
+  --caius-spacing-xxs: 0.25rem;
+  --caius-spacing-xs: 0.5rem;
+  --caius-spacing-sm: 0.75rem;
+  --caius-spacing-md: 1rem;
+  --caius-spacing-lg: 1.25rem;
+  --caius-spacing-xl: 1.5rem;
+  --caius-spacing-xxl: 2rem;
+  --caius-border-radius: 0.2rem;
+}
+
+.caius-common-btn {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  color: var(--caius-color-oiken-primary-contrast);
+  vertical-align: middle;
+  background-color: var(--caius-color-oiken-primary);
+  border: 1px solid var(--caius-color-oiken-primary);
+  padding: 0.625rem 1.4375rem;
+  line-height: 1.25;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 48px;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  text-decoration: none;
+  margin-top: 1rem;
+}

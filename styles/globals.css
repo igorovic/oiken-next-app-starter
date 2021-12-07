@@ -2,10 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./caius.css";
+@import "./euclid.css";
+
 @layer base {
+  h1,
+  h2 {
+    font-family: "Quicksand", sans-serif;
+  }
   h1 {
+    @apply text-2xl;
+  }
+  h2 {
     @apply text-xl;
   }
+  p {
+    @apply font-euclid;
+  }
 }
+
 @layer components {
 }
